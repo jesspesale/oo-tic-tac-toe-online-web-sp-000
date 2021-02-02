@@ -108,7 +108,7 @@ end
     end    
 
     def over?
-        if won? || draw?
+        if won? || a
             true
         end
     end
